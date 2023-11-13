@@ -1,0 +1,77 @@
+*{
+    letter-spacing: 10px;
+}
+
+p{
+    color: greenyellow;
+}
+
+h1{
+    color: red !important;
+    font-size: 80px;
+}
+
+h1.titulo {
+    color: yellow !important;
+}
+
+.titulo{
+    color: yellow !important;
+}
+
+#ultimoparrafo{
+    margin: 150px;
+}
+
+header li{
+    text-transform: uppercase;
+}
+
+div div  div{
+    padding: 10px;
+    border: 1px solid black;
+}
+div p {
+    text-align: center;
+}
+
+main p {
+    color: black;
+}
+
+/* EL > dice que afecte solo al hijo directo*/
+main > p {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+main div p {
+    font-style: italic;
+}
+
+p + div {
+    background: cyan;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.grande{
+    font-size: 25px;
+}
+
+.rojo{
+    color: red;
+}
+
+.negrita.grande.rojo{
+    text-decoration: underline;
+}
+
+header, footer{
+    background: rgba(255,0,0,0.2);
+}
+
+
+

@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    font-size: 16px;
+}
+
+.capaPuntos{
+    width: 25pt;
+    height: 5in;;
+    border: 1px solid black;
+}
+
+.capaPorcentaje{
+    width: 50%;
+    height: 25px;
+    border: 1px solid black;
+}
+
+.capaViewport{
+    width: 50vw;
+    height: 25vh;
+    border: 1px solid #f00;
+    
+}
+
+.capaColores{
+    
+    color: red;
+    /*
+    background-color: rgb(0,128,0);
+    background-image: url("https://www.cotesudshop.com/wp-content/uploads/2021/06/248-thickbox_default-Gatete-de-la-Suerte-Diminuto-Cielo-Negro.jpg");
+    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;*/
+    /*background-repeat: repeat;
+    background-repeat: repeat-x;
+    background-repeat: repeat-y;*/
+/*    background-position: 20px 40 px;
+    background-position: 20px;
+    background-position: center;
+    background-position: 50% 25%;
+    opacity: 0.5;*/
+    /* background: <color> <url> <repeat> <position>/<size>; */
+    background: 
+   #070 
+    url("https://www.cotesudshop.com/wp-content/uploads/2021/06/248-thickbox_default-Gatete-de-la-Suerte-Diminuto-Cielo-Negro.jpg")  
+    no-repeat
+    center/cover
+    ;
+}
+
+.capaTexto{
+   /* height: 100vh;*/
+    text-align: center;
+    line-height: 200%;
+    letter-spacing: 3px;;
+   /* vertical-align: middle;*/
+    border: 1px solid black;
+    font-size: 1.25em;
+}
+
+.capaPadreTexto{
+    font-size: 7px;
+}
